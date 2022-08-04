@@ -1,21 +1,21 @@
 # Lead-Scoring-Analysis
-An education company named X Education sells online courses to industry professionals. Leads are potentially generated through multiple sources as provided in the dataset. The typical lead conversion rate at X education is around 30%. The company is looking to make its process more efficient, whereby it can identify and focus on the most potential leads, with a target to achieve the Lead Conversion Rate to 80%
+An education company named X Education sells online courses to industry professionals. Leads are potentially generated through multiple sources as provided in the dataset. The typical lead conversion rate at X education is around 30%. The company is looking to make its process more efficient, whereby it can identify and focus on the most potential leads, with a target to achieve the Lead Conversion Rate to 80%.
 
 The motive is to Develop a Logistic Regression Model to assign a lead score between 0 – 100 for each of the leads which can be used by the Company to target potential leads. Identify the key factors that drive convertibility
 
 
 
-##Approach:
+Approach:
+
 First, the data was imported, which was present in a csv file having 9240 rows and 37 columns. After that data preparation was done, which involved the following steps:
-1. Missingvalueimputation
-a. Handling Null values and ‘Select’ Values
-b. Handling values which had a very low count – Combining such smaller
-values into a single value
-c. Finding Relationship between columns
-d. Dropping the columns with a high percentage of missing values
-e. Dropping the columns which had either a single value OR binary values
-with <10 occurrences of the other value
-f. Converting the Remaining binary columns (From Yes/No to 1/0)
+
+1. Missing value imputation :
+  a. Handling Null values and ‘Select’ Values
+  b. Handling values which had a very low count – Combining such smaller values into a single value
+  c. Finding Relationship between columns
+  d. Dropping the columns with a high percentage of missing values
+  e. Dropping the columns which had either a single value OR binary values with <10 occurrences of the other value
+  f. Converting the Remaining binary columns (From Yes/No to 1/0)
 2. Outlier treatment
 3. Dummy variable creation for categorical variables
 4. Test-train split of the data : 70% Train and 30% Test
