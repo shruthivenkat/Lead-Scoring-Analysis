@@ -5,7 +5,7 @@ The motive is to Develop a Logistic Regression Model to assign a lead score betw
 
 
 
-Approach:
+<u><b>Approach:</b></u>
 
 First, the data was imported, which was present in a csv file having 9240 rows and 37 columns. After that data preparation was done, which involved the following steps:
 
